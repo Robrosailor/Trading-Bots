@@ -6,9 +6,7 @@ from coinbase.rest import RESTClient
 # DISCORD WEBHOOKS
 # ==========================
 
-LOGS_WEBHOOK = "https://discord.com/api/webhooks/1468048482219724810/05HmuArCRBEC5ydrVDpZ37lL-0HwIhph93tUSpxk98p-nmS0-DxlV1bZY5DPEZ5tejQk"
-ALERTS_WEBHOOK = "https://discord.com/api/webhooks/1468048658262917130/zBtIfCvLFMD_0XluEgI4FDDROvN8lKr1yc1VnAY19vhU7HIBWbnGoz56wEsVppyTcUyr"
-TEST_WEBHOOK = "https://discord.com/api/webhooks/1468048857567989833/DQo2L_lRXTUeHhT0nLl0dUooNTLtqnJnnru7Qh0EIL10YxDOdkhbh3IbMY0XRRmHsIDE"
+
 
 def send_discord(webhook, message):
     try:
@@ -233,5 +231,6 @@ def run_bot():
 # ==========================
 # START BOT
 # ==========================
+
 
 run_bot()
