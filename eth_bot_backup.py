@@ -36,8 +36,8 @@ def send_discord(webhook, message):
 # COINBASE API CONFIG
 # ==========================
 
-API_KEY = "organizations/251f5945-596c-47ee-ad90-4327620bee58/apiKeys/543f50ba-f248-456f-a589-accf18d514cc"
-API_SECRET = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIH/qCAoMEw33jifpPZkphBF8ok6gDgsrMN/xGs2ar9HooAoGCCqGSM49\nAwEHoUQDQgAEsx0kbx5Whx1RuWcS2EasSLU/xAbHNZror8H5d1J5+fwowkc4E/e+\nfMDjMdwMH7jBHAVCALEVJPszQI4+/fT6wg==\n-----END EC PRIVATE KEY-----\n"
+API_KEY = ""
+API_SECRET = ""
 
 client = RESTClient(api_key=API_KEY, api_secret=API_SECRET)
 
@@ -571,4 +571,5 @@ def run_bot():
 # ==========================
 
 if __name__ == "__main__":
+
     run_bot()
